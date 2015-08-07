@@ -4,9 +4,7 @@
 !.gitignore
 !changelog.txt
 !eula.txt
-!forge-*.jar
 !log4j2.xml
-!minecraft_server*.jar
 !ServerStart.*
 !sfd_*.txt
 !SimpleFileDeleter*
