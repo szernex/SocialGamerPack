@@ -1,0 +1,22 @@
+Version 0.1.0
+* added AdminCommandsToolbox
+* added Aroma1997Core
+* added Aroma1997s Dimensional World
+* added Baubles
+* added CodeChickenCore
+* added CoFH Core
+* added CoFHTweaks
+* added EiraIRC
+* added EnderCore
+* added InventoryTweaks
+* added MobiusCore
+* added Morpheus
+* added NEI Addons
+* added NEI Integration
+* added NotEnoughItems
+* added Opis
+* added Waila
+* added Waila Harvestability
+* added WAILA Plugins
+* added YetAnotherBackupMod2
+* added YetAnotherLoginMessageMod

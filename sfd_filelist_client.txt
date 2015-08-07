@@ -1,0 +1,4 @@
+.*\\mods\\AdminCommandsToolbox.*
+.*\\mods\\eirairc.*
+.*\\mods\\Morpheus.*
+.*\\mods\\YALMM.*
