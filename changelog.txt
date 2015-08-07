@@ -8,15 +8,57 @@ Version 0.1.0
 * added CoFHTweaks
 * added EiraIRC
 * added EnderCore
+* added ExtraTiC
+* added Fullscreen Windowed (Borderless) for Minecraft
+* added Iguanas Tinker Tweaks
 * added InventoryTweaks
+* added Mantle
 * added MobiusCore
 * added Morpheus
 * added NEI Addons
 * added NEI Integration
 * added NotEnoughItems
 * added Opis
+* added Tinkers Construct
+* added Tinkers' Mechworks
 * added Waila
 * added Waila Harvestability
 * added WAILA Plugins
 * added YetAnotherBackupMod2
 * added YetAnotherLoginMessageMod
+
+
+
+aroma1997/Aroma1997Core.cfg
+	* versionCheck=false
+
+cofh/core/common.cfg
+	* genericDeathMessages=false
+	* EnableUpdateNotifications=false
+	* FlatBedrock=true
+
+cofh/tweak/common.prop
+	* AgressiveAIReduction=true
+
+eirairc/shared.cfg
+	* relayDeathMessages=true
+	* relayMinecraftJoinLeave=true
+	* preventUserPing=true
+
+neiintegration.cfg
+	* "Fluid Registry"=true
+	* "Internal Name"=true
+	* "Internal Name Shift"=true
+
+YABM2.cfg
+	* backupSchedule <
+        0:00
+        3:00
+        6:00
+        9:00
+        12:00
+        15:00
+        18:00
+        21:00
+     >
+	* maxPersistentCount=7
