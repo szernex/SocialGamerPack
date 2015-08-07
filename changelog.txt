@@ -1,4 +1,4 @@
-Version 0.1.0
+Version 1.7.10-0.1.0
 * added AdminCommandsToolbox
 * added Aroma1997Core
 * added Aroma1997s Dimensional World
