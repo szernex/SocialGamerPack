@@ -45,6 +45,14 @@ eirairc/shared.cfg
 	* relayMinecraftJoinLeave=true
 	* preventUserPing=true
 
+CodeChickenCore.cfg
+	* checkUpdates=false
+	* softLeafReplace=true
+
+forge.cfg
+	* disableVersionCheck=true
+	* spawnHasFuzz=false
+
 neiintegration.cfg
 	* "Fluid Registry"=true
 	* "Internal Name"=true
