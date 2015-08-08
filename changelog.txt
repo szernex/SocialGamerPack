@@ -1,3 +1,44 @@
+Version 1.7.10-0.1.1
+* added BiblioCraft
+* added BiblioCraft: BiblioWoods Biomes O'Plenty Edition
+* added BiblioCraft: BiblioWoods Forestry Edition
+* added BiblioCraft: BiblioWoods Natura Edition
+* added Biomes O' Plenty
+* added Carpenter's Blocks
+* added Chisel 2
+* added Hats
+* added Natura
+
+biomesoplenty/misc.cfg
+	* "Only Spawn On Beaches"=false
+
+cofh/tweak/common.prop
+	* AgressiveAIReduction=true
+
+endercore/endercore.cfg
+	* betterAchievements=false
+
+BiblioCraft.cfg
+	* CheckForUpdates=false
+
+CarpentersBlocks.cfg
+	* Smoothness=25
+
+chisel.cfg
+	* chiselAlternateRecipe=true
+
+iChunUtil.cfg
+	* versionNotificationFrequency=2
+	* versionNotificationTypes=2
+
+Morpheus.cfg
+	* SleeperPerc=20
+
+YALMM.cfg
+	* messageDelay=10000
+
+
+
 Version 1.7.10-0.1.0
 * added AdminCommandsToolbox
 * added Aroma1997Core
@@ -26,8 +67,6 @@ Version 1.7.10-0.1.0
 * added WAILA Plugins
 * added YetAnotherBackupMod2
 * added YetAnotherLoginMessageMod
-
-
 
 aroma1997/Aroma1997Core.cfg
 	* versionCheck=false

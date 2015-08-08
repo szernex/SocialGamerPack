@@ -20,4 +20,4 @@ DistantCulling=false
 FastClientSetBlock=false
 
 # If true, the server-side AI will not process as frequently. On heavily burdened servers this will manifest as mobs not doing anything every few ticks
-AgressiveAIReduction=false
+AgressiveAIReduction=true
