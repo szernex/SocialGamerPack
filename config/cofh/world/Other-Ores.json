@@ -1,0 +1,47 @@
+{
+	"TiC_aluminum":
+	{
+		"template": "normal",
+		"block":
+		[
+			{"name": "TConstruct:SearedBrick", "metadata": 5}
+		],
+		"meanHeight": 64,
+		"maxVariance": 15,
+		"clusterSize": 4,
+		"numClusters": 2,
+		"retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+	},
+	"AE2_quartz":
+	{
+		"template": "uniform",
+		"block":
+		[
+			{"name": "appliedenergistics2:tile.OreQuartz", "weight": 50},
+			{"name": "appliedenergistics2:tile.OreQuartzCharged", "weight": 15}
+		],
+		"minHeight": 5,
+		"maxHeight": 60,
+		"clusterSize": 4,
+		"numClusters": 1,
+		"retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+	}
+}

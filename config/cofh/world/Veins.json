@@ -1,0 +1,59 @@
+{
+	"SuperVein":
+	{
+		"template":
+		{
+			"type": "fractal",
+			"generator": "large-vein",
+			"sparse": "true"
+		},
+		"block":
+		[
+			{"name": "minecraft:iron_ore", "weight": 30},
+			{"name": "minecraft:coal_ore", "weight": 30},
+			{"name": "minecraft:gold_ore", "weight": 5},
+			{"name": "minecraft:redstone_ore", "weight": 8},
+			{"name": "minecraft:lapis_ore", "weight": 8},
+			{"name": "minecraft:diamond_ore", "weight": 1},
+			{"name": "ThermalFoundation:Ore", "weight": 20},
+			{"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 18},
+			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10},
+			{"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 8},
+			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 5},
+			{"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 1},
+			{"name": "ThermalFoundation:Ore", "metadata": 6, "weight": 1},
+			{"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 10},
+			{"name": "appliedenergistics2:tile.OreQuartz", "weight": 10},
+			{"name": "appliedenergistics2:tile.OreQuartzCharged", "weight": 3}
+		],
+		"material":
+		[
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"},
+			{"name": "chisel:andesite"},
+			{"name": "chisel:diorite"},
+			{"name": "chisel:granite"},
+			{"name": "chisel:limestone"},
+			{"name": "chisel:marble"}
+		],
+		"minHeight": 0,
+		"veinHeight": 10,
+		"veinDiameter": 10,
+		"verticalDensity": 20,
+		"horizontalDensity": 20,
+		"clusterSize": 100,
+		"numClusters": 32,
+		"chunkChance": 50,
+		"retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+	}
+}

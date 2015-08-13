@@ -1,3 +1,70 @@
+Version 1.7.10-0.1.2
+* added Applied Energistics 2
+* added Dark Menagerie
+* added Extra Utilities
+* added Forestry
+* added Funky Locomotion
+* added Gendustry
+* added Gravestone
+* added Hardcore Darkness
+* added Jabba
+* added OpenComputers
+* added MmmMmmMmmMmm
+* added Storage Drawers
+* added Storage Drawers: Biomes O' Plenty Pack
+* added Storage Drawers: Forestry Pack
+* added Storage Drawers: Natura Pack
+* added Thaumcraft
+* added Thaumcraft NEI Plugin
+* added Thaumcraft Node Tracker
+* added Thaumic Tinkerer
+* added Thermal Dynamics
+* added Thermal Expansion
+* added Thermal Foundation
+
+AppliedEnergistics2/AppliedEnergistics2.cfg
+	* disabled all ore gen, handled in CoFH world gen
+	* meteoriteSpawnChance=0.2
+	* minMeteoriteDistance=1000
+
+cofh/core/common.cfg
+	* ReplaceVanillaGeneration=true
+
+cofh/thermalfoundation/client.cfg
+	* BlazePowder=false
+
+cofh/tweak/common.prop
+	* ChunkLighting=false
+
+cofh/world
+	* various ore gen changes, see diff
+
+forestry/common.conf
+	* disabled all ore gen, handled in CoFH world gen
+	* crafting.bronze.enabled=false
+	* difficulty.gamemode=HARD
+
+ExtraUtilities.cfg
+	* disableEnderLiliesInDungeons=true
+
+HardcoreDarkness.cfg
+	* "Dark Nether"=false
+	* Mode=1
+
+StorageDrawers.cfg
+	* invertShift=true
+
+TinkersConstruct.cfg
+	* disabled all ore gen, handled in CoFH world gen
+	* "Keep levels on death"=false
+
+Thaumcraft.cfg
+	* biome_taint_from_flux=false
+	* biome_taint_spread=10
+	* research_difficulty=-1
+
+
+
 Version 1.7.10-0.1.1
 * added BiblioCraft
 * added BiblioCraft: BiblioWoods Biomes O'Plenty Edition
