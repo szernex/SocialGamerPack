@@ -1,3 +1,42 @@
+Version 1.7.10-0.1.4
+* added AgriCraft
+* added Blood Magic
+* added Blue Power
+* added Ender Storage
+* added fastcraft (non-curse)
+* added JourneyMap
+* added Magic Bees
+* added Roguelike Dungeons
+* added Pam's HarvestCraft
+* added Project Red Base
+* added Project Red Compat
+* added Project Red Integration
+* added Project Red Lighting
+* added Translocators
+
+* moved CoFHTweaks to server side only
+* moved fastcraft to client side only
+
+agricraft/Configuration.cfg
+	* "Disable Vanilla Farming"=true
+	* "Villager ID"=99
+
+cofh/tweaks/common.prop
+	* EntityCollisions=false
+
+EnderStorage.cfg
+	* checkUpdates=false
+	* disable-vanilla=false
+
+Natura.cfg
+	* "Drop cotton seeds from grass"=false
+
+ProjectRed.cfg
+	* * disabled all ore gen, handled in CoFH world gen
+	* "Enable Version checking"=false
+
+
+
 Version 1.7.10-0.1.3
 * added Botania
 * added Buildcraft

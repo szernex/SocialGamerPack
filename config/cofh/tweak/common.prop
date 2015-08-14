@@ -2,7 +2,7 @@
 StackItems=true
 
 # If true, Entities will attempt to collide/push with each other.
-EntityCollisions=true
+EntityCollisions=false
 
 # If true, textures will animate. The setting in CoFHCore overrides this.
 AnimatedTextures=true
