@@ -15,6 +15,12 @@
     },
     "Natura TE4 Compatibility": {
       "enabled": true
+    },
+    "Natura BuildCraft Compatibility": {
+      "enabled": true
+    },
+    "Natura MFR Compatibility": {
+      "enabled": true
     }
   }
 }

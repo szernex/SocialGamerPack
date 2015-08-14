@@ -1,2 +1,4 @@
 .*\\mods\\CmdScrpt.*
 .*\\mods\\FullscreenWindowed.*
+.*\\mods\\HardcoreDarkness.*
+.*\\mods\\NotEnoughKeys.*

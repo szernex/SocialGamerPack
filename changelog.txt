@@ -1,3 +1,47 @@
+Version 1.7.10-0.1.3
+* added Botania
+* added Buildcraft
+* added Buildcraft Compat
+* added CompactMachines
+* added CompactStorage
+* added Ender IO
+* added INpureCore
+* added Minefactory Reloaded
+* added MineTweaker3
+* added NotEnoughKeys
+* added PneumaticCraft
+* added RFTools
+* added Simply Jetpacks
+* added Solar Flux
+
+./scripts/forestry.zs
+	* removed recipes for Forestry gears since they're unnecessary
+
+./scripts/solar_flux.zs
+	* changed recipe for Solar Flux Mirror so it requires Tin
+
+buildcraft/main.cfg
+	* canEnginesExplode=true
+	* updateCheck=false
+
+rftools/main.cfg
+	* bedBehaviour=2
+
+powercrystals/minefactoryreloaded/common.cfg
+	* NeverCaptureTCGolems=true
+	* SacredRubberSapling=false
+	* MossyCobble=false
+
+Botania.cfg
+	* passiveWither.time=-1
+
+CompactMachines.cfg
+	* Botania=true
+	* dimension=3
+
+
+
+
 Version 1.7.10-0.1.2
 * added Applied Energistics 2
 * added Dark Menagerie
