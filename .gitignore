@@ -1,10 +1,13 @@
 /*
 
 !config
+
 !.gitignore
 !changelog.txt
 !eula.txt
+!Install.*
 !log4j2.xml
+!logo.lip
 !ServerStart.*
 !sfd_*.txt
 !SimpleFileDeleter*

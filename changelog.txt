@@ -1,6 +1,8 @@
 Version 1.7.10-0.1.5
 * added WR-CBE-Universal
 
+* added install scripts
+
 Translocators.cfg
 	* checkUpdates=false
 
