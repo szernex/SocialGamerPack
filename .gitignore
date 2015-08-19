@@ -4,6 +4,7 @@
 
 !.gitignore
 !changelog.txt
+!create_server_archive.bat
 !eula.txt
 !Install.*
 !log4j2.xml

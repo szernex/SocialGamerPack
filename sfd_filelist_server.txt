@@ -1,5 +1,4 @@
 .*\\mods\\CmdScrpt.*
 .*\\mods\\fastcraft.*
 .*\\mods\\FullscreenWindowed.*
-.*\\mods\\HardcoreDarkness.*
 .*\\mods\\NotEnoughKeys.*

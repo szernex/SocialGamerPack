@@ -57,6 +57,7 @@ Found creative tab: core
 Found creative tab: ill
 Found creative tab: int
 Found creative tab: trans
+Found creative tab: railcraft
 Found creative tab: solarflux
 Found creative tab: storageDrawers
 Found creative tab: storageDrawersBop
@@ -145,11 +146,11 @@ Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: MineFactoryReloaded:brick_12
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, MineFactoryReloaded:brick_12
+getRandomMaterial called. Returned: MineFactoryReloaded:machine.0_1
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, MineFactoryReloaded:machine.0_1
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 2919
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1107
+getFacadesSize called. Returned: 3086
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 675
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -281,8 +282,8 @@ Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2080
-override called. Params: appliedenergistics2, item.ItemFacade, 1287
+getNumberOfTypes called. Returned: 2162
+override called. Params: appliedenergistics2, item.ItemFacade, 1112
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js

@@ -1,0 +1,1 @@
+7z a -tzip Server.zip config libraries mods scripts Install.* minecraft_server* ServerStart.*
