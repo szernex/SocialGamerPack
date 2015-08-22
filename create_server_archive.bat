@@ -1,1 +1,1 @@
-7z a -tzip Server.zip config libraries mods scripts Install.* minecraft_server* ServerStart.* forge-1.7.10*
+7z a -mx9 -tzip Server.zip config libraries mods scripts Install.* minecraft_server* ServerStart.* forge-1.7.10*
