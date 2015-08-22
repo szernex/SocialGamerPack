@@ -2,3 +2,4 @@
 .*\\mods\\fastcraft.*
 .*\\mods\\FullscreenWindowed.*
 .*\\mods\\NotEnoughKeys.*
+.*\\mods\\TiCTooltips.*

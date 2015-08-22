@@ -1,3 +1,8 @@
+Version 1.7.10-0.1.7a
+* added TiC Tooltips (client only)
+
+
+
 Version 1.7.10-0.1.7
 Updates
     * Botania r1.7-211 : r1.7-212
