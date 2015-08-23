@@ -1,6 +1,8 @@
 Version 1.7.10-0.1.7a
 * added TiC Tooltips (client only)
 
+* fixed ServerStart.sh and Install.sh having wrong line endings (server only)
+
 
 
 Version 1.7.10-0.1.7
