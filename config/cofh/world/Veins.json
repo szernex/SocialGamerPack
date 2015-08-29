@@ -44,12 +44,10 @@
 		"horizontalDensity": 20,
 		"clusterSize": 100,
 		"numClusters": 32,
-		"chunkChance": 50,
+		"chunkChance": 200,
 		"retrogen": "true",
         "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
+        "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,

@@ -1,3 +1,96 @@
+Version 1.7.10-0.1.8
+cofh/world
+	* overhauled the whole ore generation, there should be a lot more ores in the world now
+
+IguanaTinkerTweaks/main.cfg
+	* allowAutosmelt=false
+	* toolleveling - added more levels
+	* ModifiersAtLevels - added more levels
+	* maxToolLevel=20
+
+railcraft/blocks.cfg
+	* disabled all poor ores
+
+railcraft/railcraft.cfg
+	* check.version.online=false
+	* disabled most ore gen to be handled via CoFH
+
+IGWMod.cfg
+	* "Should show tooltip"=false
+
+Updates
+	* Aroma1997Core 1.0.2.14 : 1.0.2.15
+		Made zip helper public.
+	* Botania r1.7-212 : r1.7-217
+		* r1.7-213
+			Added a config option to disable the 1.9 ender blocks for if you're using Et Futurum.
+			Added the ability to use a Cacophonium on a Note Block to make a Cacophonium Block.
+			Fixed the Mana Fluxfield not calculating the mana value properly. (LethalRes)
+			Patreon supports now have their head flower on flowers named after them.
+			Strengthened the ranks of the potato army. Nobody expects the potato inquisition!
+			Updated recipes to use the newer ore dictionary keys. (Adaptivity)
+		* r1.7-214
+			Added a little bar to the Flugel Tiara's flight HUD that shows the dash cooldown.
+			Added a notification to the lexicon's main page when the mod updates to let you know things have changed and not to panic if something doesn't work as it used to.
+			Added support for the 1.8 Banners backported by Et Futurum by adding 15 new banner icons. They're documented in the Misc part of the book if you have Et Futurum installed (which you should!).
+			Lowered goldfish.
+			Lowered the Gaia Guardian's arena player search diameter to 31 blocks (from 65)
+			The Orechid is now more expensive in Garden of Glass to prevent it from being used to infinitely generate ores and mana using the Coal it produces without an external mana supply.
+		* r1.7-215
+			Added the Flare Chakram, a fire version of the Thorn Chakram.
+			Added the Thundercaller, a new Terra Blade sidegrade that calls upon chain lightning.
+			Botania slab recipes are now revertable.
+			Changed the way the gaia guardian counts players to try to fix the bug where it would scale for more players than those present.
+			Fixed the Slime in a Bottle not detecting slime chunks properly as it was ticking in the client where it doesn't know the world seed.
+			Petal and Rune recipe pages now animate a lot smoother.
+			Pixies (friendly and hostile) are now forced to despawn if they exist for more than 10 seconds.
+			The Head Creation page now links to the player head database to give you ideas on what cool stuff you can do with heads.
+			The high council of Elven Garde, after having received countless unintended "gifts" of unenchanted Iron Ingots, Diamonds and Ender Pearls from unskilled skim-reading botanists are now returning those back to the senders.
+			Tweaked the Elven Portal's render a bit. The lighting on it doesn't spazz out and it renders properly when you're in it now.
+		* r1.7-216
+			Added Manweave Cloth and Armor. Manaweave Armor's set bonus gives a 35% discount on tools and rods and makes rods be more powerful or have larger range.
+			Added the Manatide Bellows, a block that increases the speed of Mana Pools' mana output and Furnaces' smelting.
+			Bifrost Blocks are now craftable using a Rod of the Bifrost and Alfglass (you don't lose the rod). They also have a smoother animation now thanks to the interpolated icon (same as the one used for prismarine) and emit light.
+			Fixed Mana Pools leaving sometimes a tiny sliver of mana in the client side if used to charge a mana tablet.
+			Fixed the Flare Chakram returning a Thorn Chakram when picked up instead of the proper Flare Chakram.
+			Fixed the Mana Pump dispatching needless network packets.
+			Increased the amount of time the bridges created by the Rod of the Bifrost to double of what it was before.
+			Made the Exoflame a bit cheaper.
+			Rods are now affected by Armor Sets' mana discounts (like the Manasteel armor set).
+			Spellbinding Cloth is now crafted using Manaweave Cloth.
+		* r1.7-217
+			Fixed server crash.
+	* Chisel 2 2.5.0.42 : 2.5.0.43
+		HotFix for the ClassCastException with the GUI
+	* CoFHTweaks 1.0.0RC1-35 : 1.0.0-36
+	* EnderCore 0.1.0.18_beta : 0.1.0.19_beta
+		Fix Enhanced Mod List GUI not working
+	* EnderTech 0.3.2.388 : 0.3.2.392
+		Fixed a texture corruption bug present when EnderTech is included with mods like Immersive Engineering/SpaCore (thanks BluSunrize!)
+	* ExtraUtilities 1.2.10 : 1.2.11
+		+ Added Mini-chests (smaller chests with only one slot)
+		+ Added Slightly-larger chests (standard 27-slot chests that are full blocks and don't connect to neighbours)
+		- Fixed Builders wand eternally right-clicking the same location.
+	* PneumaticCraft 1.11.0-120-universal : 1.11.1-121-universal
+		Compressed IGW images.
+		Added Redstone control to the Plastic Mixer.
+		You can now breathe indefinately under water when having an Aerial Interface connected (at a high air cost).
+		You can now show the area of a Right Click Entity piece.
+		Bugfix: Various puzzle pieces show a 'Accessing Sides:' in the tooltip even though they aren't using sides.
+		Bugfix: Logistic Frames disappear client-side and cause a crash when tried to be interacted with. 
+	* Storage Drawers addons
+		Updated to Storage Drawers Pack API
+		Recipe updates
+	* UltraSoftCore 0.1.1 - 0.1.3b
+		Implemented first prototype for Glowing Orbs (still early WIP)
+	* WAILA Plugins 0.1.2-18 : 0.1.2-19
+		ReneMuetti: Update de_DE.lang
+		tterrag1098: Clean up and fix railcraft plugin
+	* YetAnotherBackupMod2 2.0.4 : 2.0.4a
+		Minor bug fix with backupManager not getting unregistered from the FML event bus on shutting down a server
+
+
+
 Version 1.7.10-0.1.7a
 * added TiC Tooltips (client only)
 
@@ -7,12 +100,12 @@ Version 1.7.10-0.1.7a
 
 Version 1.7.10-0.1.7
 Updates
-    * Botania r1.7-211 : r1.7-212
-        Added the Greater Ring of Magnetization with a larger range. Big magnet!
-        Fixed giving another player a relic ring crashing their client.
-        Fixed the Rod of the Depths not showing infinite cobblestone when used with the Rod of the Shifting Crust, but rather, infinite dirt.
-        Fixed the Rod of the Shifting Crust placing fake blocks in the client side.
-        Mana Lenses can now be made with Glass as well as Glass Panes, because if you're low enough that you can't make panes it becomes a pain. Ha, I made a funny.
+	* Botania r1.7-211 : r1.7-212
+		Added the Greater Ring of Magnetization with a larger range. Big magnet!
+		Fixed giving another player a relic ring crashing their client.
+		Fixed the Rod of the Depths not showing infinite cobblestone when used with the Rod of the Shifting Crust, but rather, infinite dirt.
+		Fixed the Rod of the Shifting Crust placing fake blocks in the client side.
+		Mana Lenses can now be made with Glass as well as Glass Panes, because if you're low enough that you can't make panes it becomes a pain. Ha, I made a funny.
 
 
 
@@ -25,167 +118,167 @@ Version 1.7.10-0.1.6
 * added UltraSoftCore
 
 ./scripts/thermal_expansion.zs
-    * changed Igneous Extruder recipe to require diamonds and bronze gears to prevent sneaky material progression to Obsidian tools (it requires the same level tools as you would need to mine Obsidian now)
+	* changed Igneous Extruder recipe to require diamonds and bronze gears to prevent sneaky material progression to Obsidian tools (it requires the same level tools as you would need to mine Obsidian now)
 
 ./scripts/tinkers_construct.zs
-    * removed shaped crafting recipe for TConstruct Block of Steel to prevent conflict with Railcraft Block of Steel. TConstruct one can be crafted using a smeltery and basin or Chisel.
+	* removed shaped crafting recipe for TConstruct Block of Steel to prevent conflict with Railcraft Block of Steel. TConstruct one can be crafted using a smeltery and basin or Chisel.
 
 railcraft/blocks.cfg
-    * cube.copper=false
-    * cube.lead=false
-    * cube.tin=false
+	* cube.copper=false
+	* cube.lead=false
+	* cube.tin=false
 
 Botania.cfg
-    * versionChecking.enabled=false
+	* versionChecking.enabled=false
 
 MagicBees.cfg
-    * disableVersionNotification=true
+	* disableVersionNotification=true
 
 Updates
-    * Botania r1.7-208 : r1.7-211
-        * r1.7-209
-            Added a recipe for cobwebs.
-            Added factorization's new dark iron ore dictionary key to the orechid's list. (TheWhiteWolves)
-            Added Relic Knowledge, a new knowledge type for relics. This knowledge is unlocked by opening the lexicon with a relic in the inventory. The contents update dynamically depending on what relic achievements have so far been acquired. This replaces the poems in the relics' tooltips.
-            Added the ability for botania armor and baubles to have Thaumcraft runic shielding. (ruifung)
-            Added the Slime in a Bottle, effectively a slime chunk detector.
-            Added the Starcaller by very popular request. A new sword that makes shooting stars. Yes, it's the Starfury/Star Wrath from terraria.
-            Changed the 1.9 brick textures to the actual ones from the 1.9 snapshot jar.
-            Changed the element and season runes' textures to new versions in Sosho by miznib.
-            Changed the hardcore passive generation value to 48000 by default instead of 24000. It was supposed to be that to begin with but I can't do math.
-            Dice of Fate dropped by the Gaia Guardian now bind on drop rather than on pickup.
-            Fixed baubles that store mana not updating the mana bar above the XP bar in real time.
-            Fixed being able to remove water from the Petal Apothecary with a bucket in GoG, allowing for water to be acquired a lot earlier.
-            Fixed fake players locking the multiblock display.
-            Fixed more typos.
-            Fixed some botania entities not having proper localizations.
-            Fixed some of the double tall flowers having secondary drops.
-            Fixed the Ritual of Gaia's multiblock display only accepting iron rather than all valid beacon blocks.
-            Fixed the sashes not being counted as mana using items despite using mana.
-            Fixed there being duped text in the runic altar entry.
-            Hydroangeas are now quieter.
-            Increased the Hopperhock's vertical range by one block.
-            Lowered the default and max radius of /botania-skyblock-spread by a tenfold to prevent floating point errors such as hopperhocks not recognising item frames at extreme distances.
-            Made the Rod of the Molten Core's sound a lot less infuriating.
-            Passive flowers now get replaced with Dead Bushes when they despawn rather than getting removed altogether.
-            Prismarine now animates properly.
-            Removed the Holy Sword Excaliber and replaced it with something far cooler.
-            Removed the regen from the Ring of Odin. It already gives you a full heart bar, come on.
-            Replaced the Mana Pool HUD's Sparing/Accepting text with a more pleasing visual.
-            Repurposed the Eye of the Flugel a bit, I wasn't happy with what it did before.
-            The Dice of Fate no longer hurts players if they're not the right owner.
-            The elven portal is now much faster at outputting the stuff you put in.
-            The Flugel Tiara now has a limit of how much you can fly with it.
-            The Fruit of Grisaia, Ring of Loki and Eye of the Flugel now use mana.
-            The Gaia Guardian's difficulty and rewards now scale on the amount of players participating.
-            The hardmode Gaia Guardian now drops a lot more runes.
-            The Pink Wither no longer drops Nether Stars.
-            The Wither effect the Gaia Guardian's purple fire creates can no longer be healed by milk or brew of absorption.
-        * r1.7-210
-            Added the ability to Dash and Glide to the Flugel Tiara, read on these new abilities in the book!
-            Fixed a major dupe with the Resolute Ivy and container items.
-            Fixed more typos.
-            Fixed the recipe for the spectral platform crashing the client if used with the Shift-? feature in NEI.
-            Hopperhocks now check all 6 sides instead of only the 4 cardinal directions. (iambob314)
-            The Flugel Tiara no longer sets you on fire if you run out of charge, that was a cool thematic idea but it ended up just being annoying and dumb.
-        * r1.7-211
-            Added even MORE tiny potato variants :D
-            Added Grass conjuration recipe.
-            Added Mithril and Platinum ores to the orechid's list. (phantamanta44)
-            Added the Rod of the Shifting Crust, effectively a copy of the Thaumcraft Wand of Equal trade with a few new things added on.
-            Changed the Rune of Sloth in the Orechid recipe to a Rune of Greed. Turns out I planned the rune recipes really poorly, the only thing you could make with the greed rune for the longest time was the bore lens. Since the new rod uses a sloth rune I moved this around and now all is balanced :D
-            Fixed a crash when you /give yourself a botania flower with the wrong metadata.
-            Fixed more typos.
-            Fixed the Corporea Index kicking you out of the server if you try requesting an item with control codes in the name (such as brews).
-            Fixed the Flugel Tiara rubberbanding in multiplayer. Maybe. Hopefully. Probably not.
-            Fixed the Flugel Tiara using CodeChickenLib Vector3 rather than Botania Vector3, causing crashes if the item is worn without NEI loaded.
-            Fixed the Flugel Tiara's sprint delay being 1.5 seconds rather than the intended 3 seconds, also changed it to 2 seconds, so the intended is now 2 seconds rather than 3 seconds. So this line should read "Fixed the Flugel Tiara's sprint delay being 1.5 seconds rather than the intended 2 seconds", but the intended was 3 seconds before and 2 seconds now because 2 seconds feels better than 3 seconds. I don't even know.
-            Fixed the Hand of Ender being stackable.
-            Fixed the Hovering Hourglass accepting any item through automation and not just sand and not syncing its contents properly when its inventory is changed through automation.
-            Fixed the name suffix of the Black Hole Talisman not using the block's damage value to get the name.
-            Fixed the Tiara flight bar not rendering with Tinkers Construct. (TheWhiteWolves)
-            Rewrote the way the conversion in the Mana Fluxfield works to prevent a dupe with EnderIO capacitors banks.
-            The "Items Remaining" display now has colors to make it easier to read if there's multiple stacks left.
-            Trying to infuse an item with a Diluted Mana Pool now shows a "Upgrade your Mana Pool to infuse this item" indicator.
-            Updated the Force Relay entry to say how to break the block properly.
-    * Chisel 2 2.4.1 : 2.5.0
-        Connected Textured Blocks should show in the chisel menu 
-        Beacons!
-        Piping 
-        1.9 Blocks Changes
-        Limestone gets a new look
-        Ball of moss is cheaper
-        Bookshelves pick block 
-        Assorted other bugs got squished
-    * CompactStorage 2.0.0.13-universal : 2.1.0-lts.15-universal
-    * EnderCore 0.0.1.16_alpha : 0.1.0.18_beta
-    * MagicBees 1.7.10-2.3.3 : 1.7.10-2.3.4
-        Added Enchanted Soil: magical dirtstuff that will make plants grow faster, especially when stacked in farms and wider areas.
-    * NotEnoughKeys 1.0.0.b29 : 1.0.0.b30
-    * PneumaticCraft 1.9.16-106-universal : 1.11.0-120-universal
-        * 1.10.0-111-universal
-            Added Amadron Tablet, used to order items that used to have 'temporary' recipes.
-            Added Applied Energistics 2 compatibility for the Logistics system. More info: https://www.youtube.com/watch?v=3m9QT00X4MA
-        * 1.10.2-115-universal
-            The Logistic Drones now prioritize depending on the amount of fluid/items to be transported rather than distance. This prevents them getting obsessed on for example refilling a tank that is slowly draining.
-            Bugfix: Client crash on SMP with Amadron Tablet.
-            Bugfix: All Amadron Trades display red until you update the trades (scrolling/searching).
-        * 1.10.5-118-universal
-            Added Logistics Module.
-            Added Default Storage Frame.
-            Bugfix: Pressure Tube multipart visually disconnects on world load.
-        * 1.10.6-119-universal
-            You can now combine FMP tubes and tube modules.
-            Added 'dust' effect when drones are above blocks.
-            Added WAILA integration for the Logistics Modules.
-            Bugfix: Wonky looking pressure gauge in the UV Light Box and Charging Station when upgraded with Speed Upgrades.
-            Bugfix: UV Light Box doesn't render connections.
-            Bugfix: Memory leak with loading/unloading dimensions.
-            Bugfix: Crash with Amadron system.
-            Bugfix: When trying to place a FMP on a Pressure Tube, it won't render the preview render until the Pressure Tube is converted to a FMP.
-        * 1.11.0-120-universal
-            You can now power (Vanilla) Furnaces by connecting a heat source.
-            Fluids with a temperature equal or higher than Lava will turn into Obsidian when too much heat is exhausted into blocks. 
-            Fluids with a lower temperature than lava will turn into Stone when too much heat is absorbed, and will turn into Ice when too much heat is exhausted. 
-            You will now catch fire when touching a hot Heat Sink. 
-            Added Heat Frame. 
-            IGW changes: Compressed a fair amount of images, moved the images to the PneumaticCraft assets, and updated a few screenshots to the current looks. 
-            Added Pressure Chamber Wall + Glass = 1x Pressure Chamber Window recipe. 
-            Added Pressure Chamber Wall + Pressure Tube = 1x Pressure Chamber Valve recipe. 
-            Bugfix: When grabbing a puzzle piece out of the Programmer's panel, you can accidentally zoom. 
-            Bugfix: Various thing in the mod break when setting gamerule doDaylightCycle to false.
-    * RFTools 3.32 : 3.33
-        Fixed an exploit with the builder mode in copy for blocks were different meta means a different block and not just a different color.
-        Made the stacksize of dimlets configurable. Default is still 16.
-        Changed ore dictionary dimlet registration so that it will try to find the most expensive entries given by IMC or config to create the final dimlet. This is for situations where there are multiple versions of the same ore in the dictionary and multiple mods assign different rarities/costs to each of these ores. RFTools will then find all the configuration values for that dimlet and pick the most expensive one. If one of the mods blacklists the ore then it will be blacklisted for all.
-        Fixed IMC message blacklisting of dimlets.
-        Worked around a bug in the crafter when crafting fireworks in some situations.
-    * StorageDrawers 1.5.13 : 1.5.15
-        * 1.5.14
-            Fixed block label rendering for some users (it would appear to 'sink' into the drawer).
-            Fixed illegible numbers in drawer GUI when using the unicode font.
-            Fixed incorrect recipe for refined relocation version of compacting drawers.
-        * 1.5.15
-            Fixed compacting drawer descending lookups failing in some circumstances.
-    * Tinkers Construct 1.8.5 : 1.8.7
-        * 1.8.6a
-            Alumite, Ardite, Cobalt, Manyullyn bricks (Textures by TherminatorX)
-            Cactus, Paper and Netherrack textures for some of the ranged weapons (Textures by TheStapler)
-            Fix potential crashes with armor stuff
-            Fix potential crash when smeltery size changes
-            Fix potential crash with the lumber axe
-        * 1.8.6b
-            Fix CraftingStation Chest NEI stuff
-            Fix a dupe bug
-            Several other smaller fixes
-        * 1.8.7
-            RFTools integration/balance
-            Fix a crash with bolts and external mod integration
-            Fix a possible crash with thrown daggers
-            Fix crashes with worldgen when smeltery is disabled
-    * WAILA Plugins 0.1.0-16 : 0.1.2.18
-    * YetAnotherBackupMod2 2.0.3 : 2.0.4
-        Added backup pause functionality. Settings can be found in the config (pauseInterval and pauseDuration). If pauseInterval is set to anything > 0 the process of creating the backup archive will be paused every X seconds for pauseDuration seconds which is supposed to let the game catch up a bit during big backups.
+	* Botania r1.7-208 : r1.7-211
+		* r1.7-209
+			Added a recipe for cobwebs.
+			Added factorization's new dark iron ore dictionary key to the orechid's list. (TheWhiteWolves)
+			Added Relic Knowledge, a new knowledge type for relics. This knowledge is unlocked by opening the lexicon with a relic in the inventory. The contents update dynamically depending on what relic achievements have so far been acquired. This replaces the poems in the relics' tooltips.
+			Added the ability for botania armor and baubles to have Thaumcraft runic shielding. (ruifung)
+			Added the Slime in a Bottle, effectively a slime chunk detector.
+			Added the Starcaller by very popular request. A new sword that makes shooting stars. Yes, it's the Starfury/Star Wrath from terraria.
+			Changed the 1.9 brick textures to the actual ones from the 1.9 snapshot jar.
+			Changed the element and season runes' textures to new versions in Sosho by miznib.
+			Changed the hardcore passive generation value to 48000 by default instead of 24000. It was supposed to be that to begin with but I can't do math.
+			Dice of Fate dropped by the Gaia Guardian now bind on drop rather than on pickup.
+			Fixed baubles that store mana not updating the mana bar above the XP bar in real time.
+			Fixed being able to remove water from the Petal Apothecary with a bucket in GoG, allowing for water to be acquired a lot earlier.
+			Fixed fake players locking the multiblock display.
+			Fixed more typos.
+			Fixed some botania entities not having proper localizations.
+			Fixed some of the double tall flowers having secondary drops.
+			Fixed the Ritual of Gaia's multiblock display only accepting iron rather than all valid beacon blocks.
+			Fixed the sashes not being counted as mana using items despite using mana.
+			Fixed there being duped text in the runic altar entry.
+			Hydroangeas are now quieter.
+			Increased the Hopperhock's vertical range by one block.
+			Lowered the default and max radius of /botania-skyblock-spread by a tenfold to prevent floating point errors such as hopperhocks not recognising item frames at extreme distances.
+			Made the Rod of the Molten Core's sound a lot less infuriating.
+			Passive flowers now get replaced with Dead Bushes when they despawn rather than getting removed altogether.
+			Prismarine now animates properly.
+			Removed the Holy Sword Excaliber and replaced it with something far cooler.
+			Removed the regen from the Ring of Odin. It already gives you a full heart bar, come on.
+			Replaced the Mana Pool HUD's Sparing/Accepting text with a more pleasing visual.
+			Repurposed the Eye of the Flugel a bit, I wasn't happy with what it did before.
+			The Dice of Fate no longer hurts players if they're not the right owner.
+			The elven portal is now much faster at outputting the stuff you put in.
+			The Flugel Tiara now has a limit of how much you can fly with it.
+			The Fruit of Grisaia, Ring of Loki and Eye of the Flugel now use mana.
+			The Gaia Guardian's difficulty and rewards now scale on the amount of players participating.
+			The hardmode Gaia Guardian now drops a lot more runes.
+			The Pink Wither no longer drops Nether Stars.
+			The Wither effect the Gaia Guardian's purple fire creates can no longer be healed by milk or brew of absorption.
+		* r1.7-210
+			Added the ability to Dash and Glide to the Flugel Tiara, read on these new abilities in the book!
+			Fixed a major dupe with the Resolute Ivy and container items.
+			Fixed more typos.
+			Fixed the recipe for the spectral platform crashing the client if used with the Shift-? feature in NEI.
+			Hopperhocks now check all 6 sides instead of only the 4 cardinal directions. (iambob314)
+			The Flugel Tiara no longer sets you on fire if you run out of charge, that was a cool thematic idea but it ended up just being annoying and dumb.
+		* r1.7-211
+			Added even MORE tiny potato variants :D
+			Added Grass conjuration recipe.
+			Added Mithril and Platinum ores to the orechid's list. (phantamanta44)
+			Added the Rod of the Shifting Crust, effectively a copy of the Thaumcraft Wand of Equal trade with a few new things added on.
+			Changed the Rune of Sloth in the Orechid recipe to a Rune of Greed. Turns out I planned the rune recipes really poorly, the only thing you could make with the greed rune for the longest time was the bore lens. Since the new rod uses a sloth rune I moved this around and now all is balanced :D
+			Fixed a crash when you /give yourself a botania flower with the wrong metadata.
+			Fixed more typos.
+			Fixed the Corporea Index kicking you out of the server if you try requesting an item with control codes in the name (such as brews).
+			Fixed the Flugel Tiara rubberbanding in multiplayer. Maybe. Hopefully. Probably not.
+			Fixed the Flugel Tiara using CodeChickenLib Vector3 rather than Botania Vector3, causing crashes if the item is worn without NEI loaded.
+			Fixed the Flugel Tiara's sprint delay being 1.5 seconds rather than the intended 3 seconds, also changed it to 2 seconds, so the intended is now 2 seconds rather than 3 seconds. So this line should read "Fixed the Flugel Tiara's sprint delay being 1.5 seconds rather than the intended 2 seconds", but the intended was 3 seconds before and 2 seconds now because 2 seconds feels better than 3 seconds. I don't even know.
+			Fixed the Hand of Ender being stackable.
+			Fixed the Hovering Hourglass accepting any item through automation and not just sand and not syncing its contents properly when its inventory is changed through automation.
+			Fixed the name suffix of the Black Hole Talisman not using the block's damage value to get the name.
+			Fixed the Tiara flight bar not rendering with Tinkers Construct. (TheWhiteWolves)
+			Rewrote the way the conversion in the Mana Fluxfield works to prevent a dupe with EnderIO capacitors banks.
+			The "Items Remaining" display now has colors to make it easier to read if there's multiple stacks left.
+			Trying to infuse an item with a Diluted Mana Pool now shows a "Upgrade your Mana Pool to infuse this item" indicator.
+			Updated the Force Relay entry to say how to break the block properly.
+	* Chisel 2 2.4.1 : 2.5.0
+		Connected Textured Blocks should show in the chisel menu 
+		Beacons!
+		Piping 
+		1.9 Blocks Changes
+		Limestone gets a new look
+		Ball of moss is cheaper
+		Bookshelves pick block 
+		Assorted other bugs got squished
+	* CompactStorage 2.0.0.13-universal : 2.1.0-lts.15-universal
+	* EnderCore 0.0.1.16_alpha : 0.1.0.18_beta
+	* MagicBees 1.7.10-2.3.3 : 1.7.10-2.3.4
+		Added Enchanted Soil: magical dirtstuff that will make plants grow faster, especially when stacked in farms and wider areas.
+	* NotEnoughKeys 1.0.0.b29 : 1.0.0.b30
+	* PneumaticCraft 1.9.16-106-universal : 1.11.0-120-universal
+		* 1.10.0-111-universal
+			Added Amadron Tablet, used to order items that used to have 'temporary' recipes.
+			Added Applied Energistics 2 compatibility for the Logistics system. More info: https://www.youtube.com/watch?v=3m9QT00X4MA
+		* 1.10.2-115-universal
+			The Logistic Drones now prioritize depending on the amount of fluid/items to be transported rather than distance. This prevents them getting obsessed on for example refilling a tank that is slowly draining.
+			Bugfix: Client crash on SMP with Amadron Tablet.
+			Bugfix: All Amadron Trades display red until you update the trades (scrolling/searching).
+		* 1.10.5-118-universal
+			Added Logistics Module.
+			Added Default Storage Frame.
+			Bugfix: Pressure Tube multipart visually disconnects on world load.
+		* 1.10.6-119-universal
+			You can now combine FMP tubes and tube modules.
+			Added 'dust' effect when drones are above blocks.
+			Added WAILA integration for the Logistics Modules.
+			Bugfix: Wonky looking pressure gauge in the UV Light Box and Charging Station when upgraded with Speed Upgrades.
+			Bugfix: UV Light Box doesn't render connections.
+			Bugfix: Memory leak with loading/unloading dimensions.
+			Bugfix: Crash with Amadron system.
+			Bugfix: When trying to place a FMP on a Pressure Tube, it won't render the preview render until the Pressure Tube is converted to a FMP.
+		* 1.11.0-120-universal
+			You can now power (Vanilla) Furnaces by connecting a heat source.
+			Fluids with a temperature equal or higher than Lava will turn into Obsidian when too much heat is exhausted into blocks. 
+			Fluids with a lower temperature than lava will turn into Stone when too much heat is absorbed, and will turn into Ice when too much heat is exhausted. 
+			You will now catch fire when touching a hot Heat Sink. 
+			Added Heat Frame. 
+			IGW changes: Compressed a fair amount of images, moved the images to the PneumaticCraft assets, and updated a few screenshots to the current looks. 
+			Added Pressure Chamber Wall + Glass = 1x Pressure Chamber Window recipe. 
+			Added Pressure Chamber Wall + Pressure Tube = 1x Pressure Chamber Valve recipe. 
+			Bugfix: When grabbing a puzzle piece out of the Programmer's panel, you can accidentally zoom. 
+			Bugfix: Various thing in the mod break when setting gamerule doDaylightCycle to false.
+	* RFTools 3.32 : 3.33
+		Fixed an exploit with the builder mode in copy for blocks were different meta means a different block and not just a different color.
+		Made the stacksize of dimlets configurable. Default is still 16.
+		Changed ore dictionary dimlet registration so that it will try to find the most expensive entries given by IMC or config to create the final dimlet. This is for situations where there are multiple versions of the same ore in the dictionary and multiple mods assign different rarities/costs to each of these ores. RFTools will then find all the configuration values for that dimlet and pick the most expensive one. If one of the mods blacklists the ore then it will be blacklisted for all.
+		Fixed IMC message blacklisting of dimlets.
+		Worked around a bug in the crafter when crafting fireworks in some situations.
+	* StorageDrawers 1.5.13 : 1.5.15
+		* 1.5.14
+			Fixed block label rendering for some users (it would appear to 'sink' into the drawer).
+			Fixed illegible numbers in drawer GUI when using the unicode font.
+			Fixed incorrect recipe for refined relocation version of compacting drawers.
+		* 1.5.15
+			Fixed compacting drawer descending lookups failing in some circumstances.
+	* Tinkers Construct 1.8.5 : 1.8.7
+		* 1.8.6a
+			Alumite, Ardite, Cobalt, Manyullyn bricks (Textures by TherminatorX)
+			Cactus, Paper and Netherrack textures for some of the ranged weapons (Textures by TheStapler)
+			Fix potential crashes with armor stuff
+			Fix potential crash when smeltery size changes
+			Fix potential crash with the lumber axe
+		* 1.8.6b
+			Fix CraftingStation Chest NEI stuff
+			Fix a dupe bug
+			Several other smaller fixes
+		* 1.8.7
+			RFTools integration/balance
+			Fix a crash with bolts and external mod integration
+			Fix a possible crash with thrown daggers
+			Fix crashes with worldgen when smeltery is disabled
+	* WAILA Plugins 0.1.0-16 : 0.1.2.18
+	* YetAnotherBackupMod2 2.0.3 : 2.0.4
+		Added backup pause functionality. Settings can be found in the config (pauseInterval and pauseDuration). If pauseInterval is set to anything > 0 the process of creating the backup archive will be paused every X seconds for pauseDuration seconds which is supposed to let the game catch up a bit during big backups.
 
 
 
@@ -195,10 +288,10 @@ Version 1.7.10-0.1.5
 * added install scripts
 
 Translocators.cfg
-    * checkUpdates=false
+	* checkUpdates=false
 
 WirelessRedstone.cfg
-    * checkUpdates=false
+	* checkUpdates=false
 
 
 
@@ -222,22 +315,22 @@ Version 1.7.10-0.1.4
 * moved fastcraft to client side only
 
 agricraft/Configuration.cfg
-    * "Disable Vanilla Farming"=true
-    * "Villager ID"=99
+	* "Disable Vanilla Farming"=true
+	* "Villager ID"=99
 
 cofh/tweaks/common.prop
-    * EntityCollisions=false
+	* EntityCollisions=false
 
 EnderStorage.cfg
-    * checkUpdates=false
-    * disable-vanilla=false
+	* checkUpdates=false
+	* disable-vanilla=false
 
 Natura.cfg
-    * "Drop cotton seeds from grass"=false
+	* "Drop cotton seeds from grass"=false
 
 ProjectRed.cfg
-    * * disabled all ore gen, handled in CoFH world gen
-    * "Enable Version checking"=false
+	* * disabled all ore gen, handled in CoFH world gen
+	* "Enable Version checking"=false
 
 
 
@@ -258,29 +351,29 @@ Version 1.7.10-0.1.3
 * added Solar Flux
 
 ./scripts/forestry.zs
-    * removed recipes for Forestry gears since they're unnecessary
+	* removed recipes for Forestry gears since they're unnecessary
 
 ./scripts/solar_flux.zs
-    * changed recipe for Solar Flux Mirror so it requires Tin
+	* changed recipe for Solar Flux Mirror so it requires Tin
 
 buildcraft/main.cfg
-    * canEnginesExplode=true
-    * updateCheck=false
+	* canEnginesExplode=true
+	* updateCheck=false
 
 rftools/main.cfg
-    * bedBehaviour=2
+	* bedBehaviour=2
 
 powercrystals/minefactoryreloaded/common.cfg
-    * NeverCaptureTCGolems=true
-    * SacredRubberSapling=false
-    * MossyCobble=false
+	* NeverCaptureTCGolems=true
+	* SacredRubberSapling=false
+	* MossyCobble=false
 
 Botania.cfg
-    * passiveWither.time=-1
+	* passiveWither.time=-1
 
 CompactMachines.cfg
-    * Botania=true
-    * dimension=3
+	* Botania=true
+	* dimension=3
 
 
 
@@ -310,45 +403,45 @@ Version 1.7.10-0.1.2
 * added Thermal Foundation
 
 AppliedEnergistics2/AppliedEnergistics2.cfg
-    * disabled all ore gen, handled in CoFH world gen
-    * meteoriteSpawnChance=0.2
-    * minMeteoriteDistance=1000
+	* disabled all ore gen, handled in CoFH world gen
+	* meteoriteSpawnChance=0.2
+	* minMeteoriteDistance=1000
 
 cofh/core/common.cfg
-    * ReplaceVanillaGeneration=true
+	* ReplaceVanillaGeneration=true
 
 cofh/thermalfoundation/client.cfg
-    * BlazePowder=false
+	* BlazePowder=false
 
 cofh/tweak/common.prop
-    * ChunkLighting=false
+	* ChunkLighting=false
 
 cofh/world
-    * various ore gen changes, see diff
+	* various ore gen changes, see diff
 
 forestry/common.conf
-    * disabled all ore gen, handled in CoFH world gen
-    * crafting.bronze.enabled=false
-    * difficulty.gamemode=HARD
+	* disabled all ore gen, handled in CoFH world gen
+	* crafting.bronze.enabled=false
+	* difficulty.gamemode=HARD
 
 ExtraUtilities.cfg
-    * disableEnderLiliesInDungeons=true
+	* disableEnderLiliesInDungeons=true
 
 HardcoreDarkness.cfg
-    * "Dark Nether"=false
-    * Mode=1
+	* "Dark Nether"=false
+	* Mode=1
 
 StorageDrawers.cfg
-    * invertShift=true
+	* invertShift=true
 
 TinkersConstruct.cfg
-    * disabled all ore gen, handled in CoFH world gen
-    * "Keep levels on death"=false
+	* disabled all ore gen, handled in CoFH world gen
+	* "Keep levels on death"=false
 
 Thaumcraft.cfg
-    * biome_taint_from_flux=false
-    * biome_taint_spread=10
-    * research_difficulty=-1
+	* biome_taint_from_flux=false
+	* biome_taint_spread=10
+	* research_difficulty=-1
 
 
 
@@ -364,32 +457,32 @@ Version 1.7.10-0.1.1
 * added Natura
 
 biomesoplenty/misc.cfg
-    * "Only Spawn On Beaches"=false
+	* "Only Spawn On Beaches"=false
 
 cofh/tweak/common.prop
-    * AgressiveAIReduction=true
+	* AgressiveAIReduction=true
 
 endercore/endercore.cfg
-    * betterAchievements=false
+	* betterAchievements=false
 
 BiblioCraft.cfg
-    * CheckForUpdates=false
+	* CheckForUpdates=false
 
 CarpentersBlocks.cfg
-    * Smoothness=25
+	* Smoothness=25
 
 chisel.cfg
-    * chiselAlternateRecipe=true
+	* chiselAlternateRecipe=true
 
 iChunUtil.cfg
-    * versionNotificationFrequency=2
-    * versionNotificationTypes=2
+	* versionNotificationFrequency=2
+	* versionNotificationTypes=2
 
 Morpheus.cfg
-    * SleeperPerc=20
+	* SleeperPerc=20
 
 YALMM.cfg
-    * messageDelay=10000
+	* messageDelay=10000
 
 
 
@@ -423,43 +516,43 @@ Version 1.7.10-0.1.0
 * added YetAnotherLoginMessageMod
 
 aroma1997/Aroma1997Core.cfg
-    * versionCheck=false
+	* versionCheck=false
 
 cofh/core/common.cfg
-    * genericDeathMessages=false
-    * EnableUpdateNotifications=false
-    * FlatBedrock=true
+	* genericDeathMessages=false
+	* EnableUpdateNotifications=false
+	* FlatBedrock=true
 
 cofh/tweak/common.prop
-    * AgressiveAIReduction=true
+	* AgressiveAIReduction=true
 
 eirairc/shared.cfg
-    * relayDeathMessages=true
-    * relayMinecraftJoinLeave=true
-    * preventUserPing=true
+	* relayDeathMessages=true
+	* relayMinecraftJoinLeave=true
+	* preventUserPing=true
 
 CodeChickenCore.cfg
-    * checkUpdates=false
-    * softLeafReplace=true
+	* checkUpdates=false
+	* softLeafReplace=true
 
 forge.cfg
-    * disableVersionCheck=true
-    * spawnHasFuzz=false
+	* disableVersionCheck=true
+	* spawnHasFuzz=false
 
 neiintegration.cfg
-    * "Fluid Registry"=true
-    * "Internal Name"=true
-    * "Internal Name Shift"=true
+	* "Fluid Registry"=true
+	* "Internal Name"=true
+	* "Internal Name Shift"=true
 
 YABM2.cfg
-    * backupSchedule <
-        0:00
-        3:00
-        6:00
-        9:00
-        12:00
-        15:00
-        18:00
-        21:00
-     >
-    * maxPersistentCount=7
+	* backupSchedule <
+		0:00
+		3:00
+		6:00
+		9:00
+		12:00
+		15:00
+		18:00
+		21:00
+	 >
+	* maxPersistentCount=7
