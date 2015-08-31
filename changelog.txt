@@ -1,3 +1,46 @@
+Version 1.7.10-0.1.8a
+IguanaTinkerTweaks/main.cfg
+	* B:allowSilkTouch=false
+
+Updates
+	* Botania r1.7-217 : r1.7-218
+		Fixed the Black Hole Talisman crashing the game if used on lit redstone.
+		Fixed the Flugel Tiara HUD not rendering if you have Tinkers Construct and Blood Arsenal. Maybe.
+		Fixed the mana bursts created by the Shard of Laputa and Manastorm Charge being able to be converted to normal ones with prisms.
+		Fixed the Rod of the Shfiting Crust not using mana for the left click function.
+		Fixed the snowflake pendant having no documentation. (MrKunji) I deleted it by accident, ok? D:
+		Having a Haste buff enabled now lowers the Mana Blaster's cooldown.
+		Increased the incense plate range to 30 blocks (from 24).
+	* Buildcraft 7.0.20 : 7.0.21
+		Backported from 7.1:
+			Blueprint Library GUI improvements (asie)
+			Clay fluid pipe (asie)
+			Fluid pipe capacity scaling with fluidMultiplier (asie)
+			Zone Planner improvements (dynamic texture, zooming in) (asie)
+		Bugs fixed:
+			[#2939] Quarry makes server crash when used and chunkloading is off in some cases (asie)
+			Builder inconsistently respecting OreDict (knexer)
+			ClassCastException when trying to plant reeds (hea3ven)
+			Random minor crashes (asie)
+	* EnderTech 0.3.2.392 : 0.3.2.394
+		Important: fixes a duplication exploit when used in an Autonomous Activator, when there is a single item left in the Activator's inventory.
+	* OpenComputers 1.5.15.31 : 1.5.16.32
+		Added: Transposer block, allows computer controlled moving of items or fluids between adjacent blocks.
+		Added: AgriCraft integration (LordJoda).
+		Added: Better Records integration.
+		Added: Method to switch CPU architecture automatically (will cause reboot if it changed).
+		Added: Parameter in gpu.bind to disable resolution reset (makkarpov).
+		Changed: Switches and Access Points are now deprecated, replaced by the Relay, which is basically a switch with a card slot and can be upgraded to support wireless (i.e. behave like an Access Point) or even using a Linked Card.
+		Changed: Updated plan9k loot disk (Magik6k).
+		Fixed: Very rare issue with agents' inventory interaction (e.g. with AgriCraft Analyzer).
+		Fixed: Some more minor issues.
+	* Storage Drawers: Forestry Pack 1.0.2 : 1.0.3
+		Fixed refined relocation block registrations
+	* UltraSoftCore 0.1.3b : 0.1.3c
+		Hotfix for health not regenerating on servers
+
+
+
 Version 1.7.10-0.1.8
 cofh/world
 	* overhauled the whole ore generation, there should be a lot more ores in the world now
