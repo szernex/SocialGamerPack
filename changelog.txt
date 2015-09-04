@@ -1,3 +1,92 @@
+Version 1.7.10-0.1.9
+* added AppleCore
+* added Hunger Overhaul
+
+cofh/world/cave.json
+	* slightly increased coal ore gen
+
+HungerOverhaul/HungerOverhaul.cfg
+	* I:breedingTimeoutMultiplier=1
+	* I:cactusRegrowthMultiplier=1
+	* I:childDurationMultiplier=1
+	* I:cocoaRegrowthMultiplier=1
+	* I:cropRegrowthMultiplier=1
+	* I:dryingRackTimeMultiplier=1
+	* I:eggTimeoutMultiplier=1
+	* I:milkedTimeout=1
+	* I:netherWartRegrowthMultiplier=1
+	* I:saplingRegrowthMultiplier=2
+	* I:sugarcaneRegrowthMultiplier=2
+	* I:treeCropRegrowthMultiplier=2
+	* I:wrongBiomeRegrowthMultiplier=1
+	* I:wrongBiomeRegrowthMultiplierSugarcane=1
+	* B:difficultyScaling=false
+	* B:addWellFedEffect=false
+	* B:modifyFoodStackSize=false
+	* B:modifyHoeUse=false
+	* B:removeHoeRecipes=false
+	* B:modifyRegenRateOnLowHealth=false
+	* I:damageOnStarve=2
+	* B:disableHealingHungerDrain=false
+	* S:hungerLossRatePercentage=100
+	* B:addLowStatEffects=false
+	* B:addAlternateNaturaFlourCraftingRecipes=true
+	* B:removeNaturaFlourSmeltingRecipe=false
+
+Updates
+	* Botania r1.7-218 - r1.7-219
+		* r1.7-219
+			Added comparator support to the T.A. Plate.
+			Added ForgeMultipart microblock support.
+			Added Portuguese Pavement building blocks, they're good for roads (duh) and come in white, black, blue and red, as they do in the streets of Portugal.
+			Added the Manufactory Halo, effectively an automatic Assembly Halo.
+			Capped the flower patch size config option to 8 blocks to prevent worldgen crashes when the generator seeps into other chunks and forces the world to generate a new chunk while already generating one.
+			Changed the Assembly Halo's glow to be green rather than pink, it also properly renders on the outside now.
+			Fixed an exploit that made the Exoflame ridiculously fuel efficient.
+	* EnderCore 0.1.0.19_beta : 0.1.0.23_beta
+	* McJtyLib 1.3.0 : 1.4.0
+		* 1.4.0
+			This release fixes a bug with the GUI style button handling for GUI's that are connected to items (not blocks). Needed for RFTools 3.34
+	* PneumaticCraft 1.11.1-121-universal : 1.11.2-122-universal
+		* 1.11.2-122-universal
+			Added player to player Amadron trading. 
+			Amadron offers are now fully configurable in the config. 
+			You can now hack Bats to kill them (because they can only be annoying ;))
+			Turned down the dust particles of Drones.
+			Added config option for dungeon loot spawns.
+			Added 'Check for Air' option for the Condition: Block piece.
+			Bugfix: Area blacklisting with the Programmer/Drones is broken.
+			Bugfix: Programmer shows "Sneak for info" instead of the names of the returned puzzle pieces when programming a Drone.
+			Bugfix: Drop Item piece shows 'All Sides' even though it doesn't use sides.
+			Bugfix: Logistic Drone gets stuck when a Logistic Frame can't be reached (it's completely surrounded with blocks).
+			Bugfix: Old (pre FMP update) Advanced Pressure Tubes drop as regular Pressure Tubes.
+			Bugfix: Entity Tracker does not update the name of an Entity when it is changed while tracking.
+			Bugfix (hopefully): Drone gets stuck on a Charging Station when charged too fast.
+			Bugfix: Logistic Drones try to fill tanks beyond what they can hold, getting them stuck with liquid they want to dump.
+			Bugfix: Entity Tracker gives you a 'mob is targeting you' warning even when the Entity Tracker is disabled.
+			Bugfix: PneumaticCraft liquids don't behave as other liquids (no viscosity, no view depth changed when inside). This does introduce the fact that you can right-click the liquids with an empty bottle to get a water bottle again, but this is a Minecraft derp thing I can't control (except when using serious hacks).
+	* ProjectRed - Base 4.7.0pre8.92-Base : 4.7.0pre9.92-Base
+	* ProjectRed - Compat 4.7.0pre8.92-Compat : 4.7.0pre9.92-Compat
+	* ProjectRed - Integration 4.7.0pre8.92-Integration : 4.7.0pre9.92-Integration
+	* ProjectRed - Lighting 4.7.0pre8.92-Lighting : 4.7.0pre9.92-Lighting
+	* RFTools 3.33 : 3.35
+		* 3.34
+			Blind fix to make sure the no rain dimlet works in all cases because in some situations it doesn't seem to work. I could not reproduce this myself however.
+			Added infused diamond as a new crafting ingredient (only for the new advanced porter right now).
+			New advanced charged porter that supports multiple destinations (4), has a bigger energy capacity and works four times faster.
+			The no animals dimlet works now. No more sheep, cows and pigs should spawn in dimensions with that dimlet.
+			Depend on mcjtylib 1.4.0 to fix a bug with the style button on item gui's.
+			Fixed the RF network monitor giving wrong RF/t values
+			Put the shield projector + shield blocks to the builder blacklist as moving it doesn't work very nicely.
+			Fixed a problem where the matter receiver was configured to need no power. This would cause rftools to crash. Doesn't occur in normal rftools usage.
+		* 3.35
+			Fixed a bug with the 'no rain' and 'no thunder' dimlets on servers. These dimlets would cause crashes on servers (since 3.34). Single player was ok.
+			Fixed invisible shield blocks from still making adjacent non-shield blocks appear darker. Now invisible shield blocks are truely invisible.
+			Fixed a typo in the shield projector GUI.
+	* WAILA Plugins 0.1.2-19 : 0.1.2-21
+
+
+
 Version 1.7.10-0.1.8a
 IguanaTinkerTweaks/main.cfg
 	* B:allowSilkTouch=false

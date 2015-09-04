@@ -11,7 +11,7 @@
 		],
 		"ceiling": "true",
 		"clusterSize": 8,
-		"numClusters": 14,
+		"numClusters": 16,
 		"retrogen": "true",
 		"biomeRestriction": "none",
         "biomes": [],
