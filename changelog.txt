@@ -1,3 +1,126 @@
+Version 1.7.10-0.1.10
+* added The Spice of Life
+
+HungerOverhaul/HungerOverhaul.cfg
+	* S:hungerLossRatePercentage=50.0
+
+OpenComputers.cfg
+	* updateCheck=false
+
+SpiceOfLife.cfg
+	* B:give.food.journal.as.starting.item=true
+
+Thaumcraft.cfg
+	* I:biome_taint_spread=0
+
+Updates
+	* BiblioCraft 1.10.6 : 1.11.0
+		* 1.11.0
+			New Block: Framed Chest - Works with the Furniture Paneler to get to color chests using any solid block. The Framed Chest also has a built in single item label that automatically shows the item with the highest quantity in the chest. Chests can be connected into double chests using the screw gun. Double chests will have 2 built in labels and the left side of the chest will select its label item from the top half of the chest inventory and the right side will select from the bottom half of the inventory.
+			New Item: Stockroom Catalog - This allows you to list the contents of any number of chests with a single list. Sneak right-click a block with an inventory (a chest, bookcase, barrel, anything with an inventory) to add that inventory to the list of inventories for the catalog to keep track of. Sneak right-click the same block again to remove that block from the list. A small particle effect will render on that block when holding the Stockroom Catalog to let you know that block is being tracked. Right click to open the GUI and see the list. You can sort the list in ascending or descending order by quantity (Count) or alphabetical order. Click on the title to change it to anything so you can custom label your stockroom catalog. click on the small chest icons on the right hand side of each listing to open the inventory list view. This shows you everywhere inventory in your list that item can be found. You will notice 8 slots across the top. If you have any waypoint compasses in your inventory, they will show up in those slots. This allows you to click the compass, then click the + button next to an inventory and add that location to your waypoint compass. Click the close button on the bottom right or hit ESC to close the inventory list view. Hit the exit button on the bottom right or hit esc again to close the GUI.
+			New Feature: Fancy workbenches connect to bookcases. Up to 2 bookcases, one on the left and/or one on the right will show their inventory in the fancy workbench.
+			New Feature: Recipe books can now be used to craft items without a workbench if the player has the required ingredients in their inventory.
+			Clipboard tweak: Can now navigate between lines using the arrow keys and can enter the next line by hitting enter.
+			Added a locked message to blocks that have been locked with the lock and key when another player tries to use that block
+	* Botania R1.7 219 : R1.7 221
+		* R1.7 220
+			Added more taters.
+			Added the Dandelifeon, a new generating flower for maniacs that utilizes Conway's Game of Life.
+			Fixed a flower dupe with the Flower Pouch.
+			Fixed BotaniaVars.dat not generating in the right directory when using symlinks. (shadowfacts)
+			Fixed removing a Master Corporea Spark not properly resetting the corporea network.
+			Fixed the Mana Blaster with a Lens Clip showing that you have infinite mana lenses instead of showing you the name of the lens.
+			Fixed the Pink Wither not being able to be named.
+			Holding a Wand of the Forest in bind mode while wearing a Manaseer Monocle shows you the range of the flower the wand is bound to, even if you're not looking at it.
+			Luminizers can now move items.
+			Manastorm Charge mana bursts have more mana.
+			Upgraded goldfish.
+		* R1.7 221
+			Added some extra rules to the Dandelifeon to prevent some exploits. Also lowered the mana value of each cellular block.
+			Double slabs are now properly localized. (MrKunji)
+			Made the Dandelifeon's texture not be as horrid as the one I made while wiiv was away :V
+	* Carpenter's Blocks 3.3.6 : 3.3.7
+		* 3.3.7
+			Reorganized block drop code to address dupe bugs and other issues.
+			Resolved light cache crash experienced when using more recent Forge versions.
+			Overhauled cached lighting system; should resolve mob spawns and crop growth.
+			Added rail slope fill configuration option (for sloped rails above Carpenter's Blocks).
+			Added proper top face rendering to routable fluids.
+			Added permissions support for offline-mode servers.
+			Added inverted Collapsible block, and converted to 16-step increments (existing ones will break, sorry).
+			Fixed daylight sensor not updating neighbors properly. [mickelus]
+			Many garage door changes, including:
+			Reverted Presence sound fix -- fixes only hearing default wooden block sounds.
+			Tweaked permissions to correct some false positives, such as safe breaking animations.
+	* CompactStorage 2.1.0-lts.15-universal : 2.1.0-lts.18-universal
+		* 2.1.0-lts.18-universal
+			Fixed bug where chest inventories could become misaligned when they were created less than 9x3
+			Added data dumps to help fix a bug in which backpacks cannot be created.
+			Removed WAILA and JABBA compatibility.
+	* EiraIRC 2.8.293 : 2.9.384
+	* EnderTech 0.3.2.394 : 0.3.2.398
+		* 0.3.2.395
+			Fixes the Creative Exchanger, which was accidentally broken (causes a crash) in the last build.
+		* 0.3.2.398
+			Ender Tanks now have no maximum multiplier limit (they're capped at MAX_INT, 2147483647),
+				Note that the default is still 512 buckets per interior block
+			A new configuration option has been added to alter the Ender Tank's energy input rate ("Tank.MaxEnergyInputRate"),
+				This is also capped at MAX_INT, and defaults to 20K RF/t
+			Large amounts of fluid now render correctly in the GUI (large amounts of fluid previously sometimes didn't render in the GUI)
+	* Forestry 3.6.3 : 3.6.5
+	* In-Game Wiki Mod 1.1.9-29-universal : 1.1.10-30-universal
+	* Magic Bees 2.3.4 : 2.3.5
+		* 2.3.5
+			Thaumcraft bees return! Make Azanor weep with their overpoweredness or whatever while you weep bitter tears trying to breed them.
+			Welcome back the Vis branch of Bees:
+			Rejuvinating - Causes nodes to regenerate faster
+			Empowering - Grow your nodes without hauling node-in-a-jars everywhere.
+			Nexus - Make sure your nodes are the best they can be
+			Tainting - You might want to run these a bit away from your house...
+			Purifying - Probably a good idea to have these on hand if you get the Tainting ones...
+			Ravening - Make sure everything near your nodes are bolted down and secured, and you wouldn't mind losing it.
+	* MineTweaker3 3.0.9C : 3.0.10
+		* 3.0.10
+			Minecraft 1.8 is now supported!
+			Support for 1.6.4 and 1.7.2 has been dropped.
+			Retired GregTech support. This has been superseded by the GT5 addon by DreamMasterXXL.
+			You can now set block hardness and maximum stack size. (<item>.hardness = 123; <item>.maxStackSize=4;)
+			Fixed /mt help being broken in some cases
+			Fixed the tools.jar not being found automatically (credits to RX-14)
+			Fixed /mt hand crashing in some cases
+			Fixed usage of quotes when setting names
+			Fixed MFR Safari net integration
+			Fixed MFR Fertilizer integration
+			game.lock() can now be used to prevent reloading. Will show an error screen if reload was necessary
+			Reloading of scripts is now only performed if really necessary
+	* NotEnoughKeys 1.0.0.b30 : 2.0.0b41
+	* OpenComputers 1.5.16.32-universal : 1.5.17.33-universal
+		* 1.5.17.33-universal
+			Fixed: Crash when trying to change architecture of APU.
+			Fixed: Hoverboots taking damage - draining energy when absorbing damage now.
+	* PneumaticCraft 1.11.2.122-universal : 1.11.6-126-universal
+		* 1.11.4.124-universal
+			Liquid Export piece can now place down Fluid blocks.
+			Liquid Import can now suck up Fluid blocks.
+			Item Filters now are saved by item name rather than id, so (modded) items don't get mixed up when sharing programs anymore.
+			Added global variable linking to the GPS Tool.
+			Added 'has work' Comparator output for the Refinery.
+			Added 'getTemperature()' method to the ComputerCraft and OpenComputer peripherals.
+			Added wildcard matching to Entity Filters (working for the Pneumatic Helmet, Drone Entity Attack and Universal Sensor filter).
+			Adjusted the model of the Charging Station pad, and added camouflaging.
+			Bugfix: You can't edit widgets in the Remote when they manage to get out of bounds (as a result of changing the text).
+			Bugfix: Block tracker sometimes shows very generic information about tracked blocks (like AE2 cables).
+			Bugfix: Puzzle pieces can't be crafted.
+		* 1.11.6-126-universal
+			Bugfix: Crash when placing down an (Advanced) Pressure Tube.
+	* Storage Drawers 1.5.15 : 1.6.0
+		* 1.6.0
+			New 'packing tape' item to tape drawers shut.
+			Taped drawers will keep contents/upgrades when broken for easier relocation.
+			A taped drawer is cut off from all player and machine interaction, like a stricter form of locking. You can't even see what's inside. A taped drawer will lose its tape automatically when placed back on the ground. It can also be removed by shift+right-clicking with an empty hand.
+	
+
+
 Version 1.7.10-0.1.9
 * added AppleCore
 * added Hunger Overhaul

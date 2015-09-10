@@ -141,17 +141,17 @@ Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ExtraUtilities:trading_post
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ExtraUtilities:trading_post
+getRandomMaterial called. Returned: MineFactoryReloaded:brick_3
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, MineFactoryReloaded:brick_3
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: MineFactoryReloaded:brick_5
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, MineFactoryReloaded:brick_5
+getRandomMaterial called. Returned: MineFactoryReloaded:brick_4
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, MineFactoryReloaded:brick_4
 Loading: BuildCraft.js
 getFacadesSize called. Returned: 3126
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 2863
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 890
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -209,6 +209,7 @@ Regex match found! BiblioCraft:* matches BiblioCraft:item.PlumbLine.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.PrintPlate.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.RecipeBook.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.SlottedBook.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.StockroomCatalog.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.TesterItem.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack2.
@@ -217,6 +218,7 @@ Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack4.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack5.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.tape.
 Regex match found! BiblioCraft:* matches BiblioCraft:item.tapeMeasure.
+Regex match found! BiblioCraft:* matches BiblioCraft:tile.BiblioFramedChest.
 Found ItemStack BiblioCraft:Armor Stand. 64xtile.BiblioArmorStand@0
 Found ItemStack BiblioCraft:BiblioBell. 64xtile.BiblioBell@0
 Found ItemStack BiblioCraft:BiblioBorderlessPainting. 64xtile.BiblioBorderlessPainting@0
@@ -272,6 +274,7 @@ Found ItemStack BiblioCraft:item.PlumbLine. 1xitem.PlumbLine@0
 Found ItemStack BiblioCraft:item.PrintPlate. 1xitem.PrintPlate@0
 Found ItemStack BiblioCraft:item.RecipeBook. 1xitem.RecipeBook@0
 Found ItemStack BiblioCraft:item.SlottedBook. 1xitem.SlottedBook@0
+Found ItemStack BiblioCraft:item.StockroomCatalog. 1xitem.StockroomCatalog@0
 Found ItemStack BiblioCraft:item.TesterItem. 1xitem.TesterItem@0
 Found ItemStack BiblioCraft:item.seatBack. 64xitem.seatBack@0
 Found ItemStack BiblioCraft:item.seatBack2. 64xitem.seatBack@0
@@ -280,11 +283,12 @@ Found ItemStack BiblioCraft:item.seatBack4. 64xitem.seatBack@0
 Found ItemStack BiblioCraft:item.seatBack5. 64xitem.seatBack@0
 Found ItemStack BiblioCraft:item.tape. 64xitem.tape@0
 Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
+Found ItemStack BiblioCraft:tile.BiblioFramedChest. 64xtile.BiblioFramedChest@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
 getNumberOfTypes called. Returned: 2197
-override called. Params: appliedenergistics2, item.ItemFacade, 1507
+override called. Params: appliedenergistics2, item.ItemFacade, 2000
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
