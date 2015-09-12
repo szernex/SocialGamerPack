@@ -1,3 +1,46 @@
+Version 1.7.10-0.1.11
+* removed Aroma1997Core
+* removed Aroma1997s Dimensional World
+
+../scripts/thermal_expansion.zs
+	* changed Igneous Extruder recipe so you get the 3 missing augments returned into your inventory
+
+agricraft/Configuration.cfg
+	* B:"Resource Crops"=true
+
+agricraft/Mutations.txt
+	* regenerated to get all missing mutations
+
+biomesoplenty/misc.cfg
+	* B:"Only Spawn On Beaches"=true
+
+MrTJPCore.cfg
+	* B:check_versions=false
+
+YABM2.cfg
+	* I:compressionLevel=4
+
+Updates
+	* BdLib 1.9.1.97 : 1.9.2.104
+	* EnderCore 0.1.0.23_beta : 0.1.0.24_beta
+	* Genudstry 1.5.2.107 : 1.6.0.125
+		* 1.6.0.125
+			Added custom hive spawning system
+			Added Error Sensor Cover
+			Added Pollen Scrubber Upgrade (prevents flower spreading and polination)
+			Tools can now be charged using normal crafting and redstone dust/blocks (for packs without charging blocks)
+			Apiaries will emit a block update when error state changes
+			Apiaries will now drop covers when broken (prevents dupes and weirdness)
+			Added option for custom bees to only register when a specific mod or oredict entry is present
+			Fixed housing and bee keeping mode mutation modifiers not applying to custom mutations
+			Fixed apiary BC gate triggers not working
+			Fixed apiaries not connecting correctly to some redstone wires
+			Fixed custom bee products not working correctly if they use the same drop chance
+			Fixed incorrect custom localization loading
+			Updated Chinese localization (thanks InfinityStudio)
+			Fixed issues with with some locales that use weird Latin letter upper/lower case mappings (e.g. Turkish)
+
+
 Version 1.7.10-0.1.10
 * added The Spice of Life
 
@@ -93,7 +136,6 @@ Updates
 			Fixed MFR Fertilizer integration
 			game.lock() can now be used to prevent reloading. Will show an error screen if reload was necessary
 			Reloading of scripts is now only performed if really necessary
-	* NotEnoughKeys 1.0.0.b30 : 2.0.0b41
 	* OpenComputers 1.5.16.32-universal : 1.5.17.33-universal
 		* 1.5.17.33-universal
 			Fixed: Crash when trying to change architecture of APU.
@@ -118,7 +160,7 @@ Updates
 			New 'packing tape' item to tape drawers shut.
 			Taped drawers will keep contents/upgrades when broken for easier relocation.
 			A taped drawer is cut off from all player and machine interaction, like a stricter form of locking. You can't even see what's inside. A taped drawer will lose its tape automatically when placed back on the ground. It can also be removed by shift+right-clicking with an empty hand.
-	
+
 
 
 Version 1.7.10-0.1.9
