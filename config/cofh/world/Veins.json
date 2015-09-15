@@ -5,7 +5,7 @@
 		{
 			"type": "fractal",
 			"generator": "large-vein",
-			"sparse": "true"
+			"sparse": true
 		},
 		"block":
 		[
@@ -45,13 +45,13 @@
 		"clusterSize": 100,
 		"numClusters": 32,
 		"chunkChance": 200,
-		"retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	}
 }

@@ -1,3 +1,58 @@
+Version 1.7.10-0.2.0
+* added Hardcore Ender Expansion (you will have to reset/delete your End dimension; folder DIM1 in your save)
+
+cofh/world
+	* fixed naming issues for ores
+
+HungerOverhaul/HungerOverhaul.cfg
+	* B:addLowHealthMiningSlowdown=false
+	* B:addLowHealthNausea=false
+	* B:addLowHealthSlowness=false
+	* B:addLowHealthWeakness=false
+	* B:addLowHungerMiningSlowdown=false
+	* B:addLowHungerNausea=false
+	* B:addLowStatEffects=true
+
+HardcoreEnderExpansion.cfg
+	* B:enableTempleCaller=false
+	* B:enableUpdateNotifications=false
+
+SpiceOfLife.cfg
+	* I:food.containers.max.stacksize=8
+	* I:food.eating.duration.max=32
+	* D:food.eating.speed.modifier=0.0
+	* I:food.history.length=10
+	* S:food.modifier.formula=MAX(0, (1 - count/max_history_length))^MIN(8, food_hunger_value)
+	* B:use.hunger.restored.for.food.history.length=true
+
+* Updates
+	* Rollback of Minetweaker 3.0.10 : 3.0.9C
+	* BiblioCraft 1.11.0 : 1.11.1
+		* 1.11.1
+			Fixed a crash with the framed chest and certain items such as the botania wand of the forest
+			Added support for the Storage Catalog to the printing press
+			Added support for the Quantum Storage Unit mod to the Stockroom Catalog
+			Fixed a bug that forced graphics to fast mode when using a framed chest
+	* Chisel 2 2.5.0 : 2.5.1
+		* 2.5.1
+			Fixed the console spam and for those who didn't grab the reupload of 2.5 it fixes that crash as well
+	* EnderTech 0.3.2.398 : 0.3.2.399
+		* 0.3.2.399
+			Enhancement/behaviour change: Exchangers now Silk Touch blocks by default, rather than breaking them. The block must be Silk Touch-able, otherwise the standard breaking logic applies
+				You can disable this in the `items.cfg` config file, by setting `Exchanger.SilkTouch` to false.
+	* Forestry 3.6.5 : 3.6.6
+		* 3.6.6
+			Fix Worktable handling of Tools and advanced recipes (ItemCraftedEvent)
+
+
+
+
+Version 1.7.10-0.1.11a
+../scripts/thermal_expansion.zs
+	* removed recipe overwrite for Igneous Extruder because of issues with the machine tiers
+
+
+
 Version 1.7.10-0.1.11
 * removed Aroma1997Core
 * removed Aroma1997s Dimensional World

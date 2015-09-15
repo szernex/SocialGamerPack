@@ -1,5 +1,5 @@
 {
-	"coal": {
+	"coal_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "minecraft:coal_ore"}
@@ -9,19 +9,19 @@
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 8,
-		"numClusters": 16,
-		"retrogen": "true",
+		"numClusters": 14,
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"iron": {
+	"iron_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "minecraft:iron_ore"}
@@ -31,19 +31,19 @@
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 6,
-		"numClusters": 7,
-		"retrogen": "true",
+		"numClusters": 6,
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"aluminum": {
+	"aluminum_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "TConstruct:SearedBrick", "metadata": 5}
@@ -53,19 +53,19 @@
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 6,
 		"numClusters": 6,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"copper": {
+	"copper_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "ThermalFoundation:Ore"}
@@ -75,19 +75,19 @@
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 6,
-		"numClusters": 8,
-		"retrogen": "true",
+		"numClusters": 6,
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"tin": {
+	"tin_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "ThermalFoundation:Ore", "metadata": 1}
@@ -97,66 +97,66 @@
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 6,
-		"numClusters": 8,
-		"retrogen": "true",
+		"numClusters": 6,
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"silver_lead": {
+	"silver_lead_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
+			{"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
 		],
 		"material": [
 			{"name": "minecraft:stone"},
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 6,
-		"numClusters": 8,
-		"retrogen": "true",
+		"numClusters": 6,
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	}
 	,
-	"lead_silver": {
+	"lead_silver_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "ThermalFoundation:Ore", "metadata": 3, "weight":90},
-            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":10}
+			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight":10}
 		],
 		"material": [
 			{"name": "minecraft:stone"},
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 6,
 		"numClusters": 2,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"nickel": {
+	"nickel_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "ThermalFoundation:Ore", "metadata": 4}
@@ -166,63 +166,63 @@
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 4,
 		"numClusters": 5,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"nickel_platinum": {
+	"nickel_platinum_cave": {
 		"template": "cave",
 		"generator": "sparse-cluster",
 		"block": [
 			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight":50},
-            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight":50}
+			{"name": "ThermalFoundation:Ore", "metadata": 5, "weight":50}
 		],
 		"material": [
 			{"name": "minecraft:stone"},
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 3,
 		"numClusters": 2,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"ae2_quartz": {
+	"ae2_quartz_cave": {
 		"template": "cave",
 		"block": [
 			{"name": "appliedenergistics2:tile.OreQuartz", "weight":50},
-            {"name": "appliedenergistics2:tile.OreQuartzCharged", "weight":15}
+			{"name": "appliedenergistics2:tile.OreQuartzCharged", "weight":15}
 		],
 		"material": [
 			{"name": "minecraft:stone"},
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-		"ceiling": "true",
+		"ceiling": true,
 		"clusterSize": 4,
 		"numClusters": 4,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	}
 }

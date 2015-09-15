@@ -1,5 +1,5 @@
 {
-	"saltpeter": {
+	"saltpeter_normal": {
 		"template": "normal",
 		"block": [
 			{"name": "Railcraft:ore", "metadata": 1}
@@ -13,16 +13,16 @@
 		"maxVariance": 20,
 		"clusterSize": 3,
 		"numClusters": 4,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
-	"sulfur": {
+	"sulfur_normal": {
 		"template": "normal",
 		"block": [
 			{"name": "Railcraft:ore"}
@@ -36,14 +36,14 @@
 		"maxVariance": 20,
 		"clusterSize": 3,
 		"numClusters": 4,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
 	"gold": {
 		"template": "normal",
@@ -59,14 +59,14 @@
 		"maxVariance": 10,
 		"clusterSize": 5,
 		"numClusters": 4,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
 	"lapis": {
 		"template": "normal",
@@ -82,14 +82,14 @@
 		"maxVariance": 10,
 		"clusterSize": 6,
 		"numClusters": 3,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
 	"redstone": {
 		"template": "normal",
@@ -105,14 +105,14 @@
 		"maxVariance": 8,
 		"clusterSize": 6,
 		"numClusters": 3,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	},
 	"diamond": {
 		"template": "normal",
@@ -128,13 +128,13 @@
 		"maxVariance": 8,
 		"clusterSize": 4,
 		"numClusters": 2,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	}
 }

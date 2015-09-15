@@ -1,8 +1,8 @@
 {
-	"emerald": {
-        "template": "uniform",
-        "generator": "sparse-cluster",
-        "block": [
+	"emerald_uniform": {
+		"template": "uniform",
+		"generator": "sparse-cluster",
+		"block": [
 			{"name": "minecraft:emerald_ore"}
 		],
 		"material": [
@@ -10,22 +10,22 @@
 			{"name": "minecraft:dirt"},
 			{"name": "minecraft:gravel"}
 		],
-        "clusterSize": 2,
-        "numClusters": 10,
-        "minHeight": 0,
-        "maxHeight": 100,
-        "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {"type": "dictionary", "entry": "MOUNTAIN"}
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "coal": {
+		"clusterSize": 2,
+		"numClusters": 10,
+		"minHeight": 0,
+		"maxHeight": 100,
+		"retrogen": true,
+		"biomeRestriction": "whitelist",
+		"biomes": [
+			{"type": "dictionary", "entry": "MOUNTAIN"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+	},
+	"coal_uniform": {
 		"template": "uniform",
 		"block": [
 			{"name": "minecraft:coal_ore"}
@@ -39,13 +39,13 @@
 		"maxHeight": 100,
 		"clusterSize": 4,
 		"numClusters": 4,
-		"retrogen": "true",
+		"retrogen": true,
 		"biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
 	}
 }
