@@ -22,7 +22,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"coal_uniform": {
@@ -45,7 +46,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	}
 }

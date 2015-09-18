@@ -18,7 +18,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"iron_cave": {
@@ -40,7 +41,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"aluminum_cave": {
@@ -62,7 +64,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"copper_cave": {
@@ -84,7 +87,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"tin_cave": {
@@ -106,7 +110,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"silver_lead_cave": {
@@ -129,7 +134,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	}
 	,
@@ -153,7 +159,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"nickel_cave": {
@@ -175,7 +182,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"nickel_platinum_cave": {
@@ -199,7 +207,35 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
+		]
+	},
+	"mana_infused_cave": {
+		"template":
+		{
+			"type": "cave",
+			"generator": "sparse-cluster"
+		},
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 6}
+		],
+		"material": [
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"ceiling": true,
+		"clusterSize": 2,
+		"numClusters": 4,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1,
+			-100
 		]
 	},
 	"ae2_quartz_cave": {
@@ -222,7 +258,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	}
 }

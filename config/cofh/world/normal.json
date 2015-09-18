@@ -19,7 +19,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
 	"sulfur_normal": {
@@ -42,10 +43,11 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
-	"gold": {
+	"gold_normal": {
 		"template": "normal",
 		"block": [
 			{"name": "minecraft:gold_ore"}
@@ -65,10 +67,11 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
-	"lapis": {
+	"lapis_normal": {
 		"template": "normal",
 		"block": [
 			{"name": "minecraft:lapis_ore"}
@@ -88,10 +91,11 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
-	"redstone": {
+	"redstone_normal": {
 		"template": "normal",
 		"block": [
 			{"name": "minecraft:redstone_ore"}
@@ -111,10 +115,11 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	},
-	"diamond": {
+	"diamond_normal": {
 		"template": "normal",
 		"block": [
 			{"name": "minecraft:diamond_ore"}
@@ -134,7 +139,8 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [
 			-1,
-			1
+			1,
+			-100
 		]
 	}
 }

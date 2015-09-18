@@ -1,3 +1,56 @@
+Version 1.7.10-0.2.1
+* removed Dark Menagerie
+* added Guide-API
+* added Morph
+* added Simply Paths
+
+cofh/world
+	* fixed ore generation for the Deep Dark since it was too low using Overworld generation
+	* added Mana Infused Ore to ore gen
+
+GraveStoneMod/GraveStone.cfg
+	* B:CanPlaceGravesEveryWhere=true
+	* I:SpawnChance=50
+
+AWWayofTime.cfg
+	* S:Blacklist <Thaumcraft:blockAiry>
+
+CompactMachines.cfg
+	* B:adaptBiomes=false
+	* B:allowRespawn=true
+
+Morph.cfg
+	* S:disabledAbilities=fly
+	* I:hostileAbilityDistanceCheck=32
+	* I:hostileAbilityMode=4
+	* I:loseMorphsOnDeath=2
+
+simplypaths.cfg
+	* B:"Enable Path Chisel for Normal Blocks"=true
+
+Updates
+	* In-Game Wiki Mod 1.1.10-30-universal : 1.1.10-32-universal
+		* 1.1.10-32-universal
+			Bugfix: IGW fails to look up pages.
+	* McJtyLib 1.4.0 : 1.5.0
+	* PneumaticCraft 1.11.6-126-universal : 1.11.7-127-universal
+		* 1.11.7-127-universal
+			RF Block Tracker now only tracks when able to connect a RF block (this prevents AE cables to be tracked). 
+			Added auto-complete for variables when inserting them in a Remote or Programmer GUI. 
+			Increased Drone performance. 
+			Added Undo+Redo button to the Programmer 
+			Bugfix: When dragging a piece out of the panel of the Programmer, you sometimes affect the scrollbar. 
+			Bugfix: Drone Interface area showing doesn't update when more than 64 blocks away from the Drone Interface. 
+			Bugfix: Amadron Tablet orders items when clicking the scrollbar. 
+			Bugfix (on other mods' behalf): You can pump in any fluid with certain mods' fluid insertion methods into a Refinery which will treat it as Oil. 
+			Bugfix: Crash when interacting with a Logistics Frame which disappeared from the client. 
+			Bugfix: Crash on startup when having a mod that adds null items to Villager Trades (looking at you Fossils and Archeology).
+	* Storage Drawers 1.6.0 : 1.6.1
+		* 1.6.1
+			Fix status upgrades for "pack" versions of drawers.
+
+
+
 Version 1.7.10-0.2.0
 * added Hardcore Ender Expansion (you will have to reset/delete your End dimension; folder DIM1 in your save)
 
@@ -25,7 +78,7 @@ SpiceOfLife.cfg
 	* S:food.modifier.formula=MAX(0, (1 - count/max_history_length))^MIN(8, food_hunger_value)
 	* B:use.hunger.restored.for.food.history.length=true
 
-* Updates
+Updates
 	* Rollback of Minetweaker 3.0.10 : 3.0.9C
 	* BiblioCraft 1.11.0 : 1.11.1
 		* 1.11.1
@@ -43,7 +96,6 @@ SpiceOfLife.cfg
 	* Forestry 3.6.5 : 3.6.6
 		* 3.6.6
 			Fix Worktable handling of Tools and advanced recipes (ItemCraftedEvent)
-
 
 
 

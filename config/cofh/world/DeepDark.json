@@ -1,0 +1,405 @@
+{
+	"coal_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "minecraft:coal_ore"}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"iron_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "minecraft:iron_ore"}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"aluminum_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "TConstruct:SearedBrick", "metadata": 5}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"copper_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "ThermalFoundation:Ore"}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"tin_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 1}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"silver_lead_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 80},
+			{"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 20}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"lead_silver_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10},
+			{"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"nickel_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 4}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"nickel_platinum_deepdark": {
+		"template":
+		{
+			"type": "uniform",
+			"generator": "sparse-cluster"
+		},
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 50},
+			{"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 50}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 3,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"mana_infused_deepdark": {
+		"template":
+		{
+			"type": "uniform",
+			"generator": "sparse-cluster"
+		},
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 6}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 3,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"ae2_quartz_deepdark": {
+		"template": "uniform",
+		"block": [
+			{"name": "appliedenergistics2:tile.OreQuartz", "weight": 50},
+			{"name": "appliedenergistics2:tile.OreQuartzCharged", "weight": 15}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"minHeight": 1,
+		"maxHeight": 70,
+		"clusterSize": 6,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"saltpeter_deepdark": {
+		"template": "normal",
+		"block": [
+			{"name": "Railcraft:ore", "metadata": 1}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"meanHeight": 40,
+		"maxVariance": 20,
+		"clusterSize": 3,
+		"numClusters": 2,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"sulfur_deepdark": {
+		"template": "normal",
+		"block": [
+			{"name": "Railcraft:ore"}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"meanHeight": 40,
+		"maxVariance": 20,
+		"clusterSize": 3,
+		"numClusters": 2,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"gold_deepdark": {
+		"template": "normal",
+		"block": [
+			{"name": "minecraft:gold_ore"}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"meanHeight": 10,
+		"maxVariance": 10,
+		"clusterSize": 5,
+		"numClusters": 6,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"lapis_deepdark": {
+		"template": "normal",
+		"block": [
+			{"name": "minecraft:lapis_ore"}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"meanHeight": 10,
+		"maxVariance": 10,
+		"clusterSize": 6,
+		"numClusters": 3,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"redstone_deepdark": {
+		"template": "normal",
+		"block": [
+			{"name": "minecraft:redstone_ore"}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"meanHeight": 10,
+		"maxVariance": 8,
+		"clusterSize": 6,
+		"numClusters": 3,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	},
+	"diamond_deepdark": {
+		"template": "normal",
+		"block": [
+			{"name": "minecraft:diamond_ore"}
+		],
+		"material": [
+			{"name": "minecraft:cobblestone"},
+			{"name": "minecraft:stone"},
+			{"name": "minecraft:dirt"},
+			{"name": "minecraft:gravel"}
+		],
+		"meanHeight": 8,
+		"maxVariance": 8,
+		"clusterSize": 6,
+		"numClusters": 2,
+		"retrogen": true,
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-100
+		]
+	}
+}
