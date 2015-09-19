@@ -10,7 +10,7 @@ Report any issues you find on the <a href="https://github.com/szernex/SocialGame
 ## Introduction
 The community of the SocialGamers is a curious one, especially when compared to other communities like the one that's following the big Direwolf20 or others. The way a new member of the community progresses might start off quite a bit harder than in other communities, but unlike others in this one you can get a feeling of accomplishment once you've built your big machine room or set up an intricate farm or base.
 
-You start off by following the teachings of Iguana, where you learn how to use, improve and upgrade your tools by using a Tinkers Construct. Once you have mastered those you will be able to get even the most exotic metals and forge the most powerful weapons.
+You start off by following the teachings of Iguana, where you learn how to use, improve and upgrade your tools by using a Tinkers Construct. Once you have mastered those you will be able to get even the most exotic metals and forge the most powerful weapons.<br/>
 But you also don't want to focus on just getting all those ores, in this community there has been some Spice of Life added so you will want to have a few different sources of food. So you'll want to look into agriculturing and harvesting all the crops provided to you by Pam in their market.
 Once you have your basics for survival covered you might want to look in some of the specialization branches offered to you by the community.
 
@@ -117,8 +117,8 @@ It also seems the that the world’s natural generation of ores like iron or cop
 * YetAnotherLoginMessageMod
 
 ##Server installation instructions
-Minecraft server jar download: https://s3.amazonaws.com/Minecraft.Download/versions/1.7.10/minecraft_server.1.7.10.jar
-Forge Installer download: http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forge-1.7.10-10.13.4.1448-1.7.10-installer.jar
-Start scripts: http://pastebin.com/cnEjVTjf (adjust -Xms and -Xmx options depending on your RAM)
+Minecraft server jar download: https://s3.amazonaws.com/Minecraft.Download/versions/1.7.10/minecraft_server.1.7.10.jar<br/>
+Forge Installer download: http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forge-1.7.10-10.13.4.1448-1.7.10-installer.jar</br>
+Start scripts: http://pastebin.com/cnEjVTjf (adjust -Xms and -Xmx options depending on your RAM)</br>
 
 Save everything to the root installation folder (where you extracted the server archive). Run the Forge installer with "java -jar forge-1.7.10-10.13.4.1448-1.7.10-installer.jar --installServer". Save one of the start scripts to a .bat (windows)/.sh (linux) file and mark it executable, then run it.
